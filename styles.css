@@ -17,8 +17,12 @@ body {
   margin: 50px auto;
 }
 
+#logo {
+  text-align: right;
+}
+
 h3 {
-  margin: 8px 15px 3px;
+  margin: 8px 7px 3px;
 }
 
 #answer {
