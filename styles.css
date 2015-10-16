@@ -9,7 +9,7 @@ body {
 }
 
 #calc {
-  height: 330px;
+  height: 360px;
   width: 250px;
   border-radius: 7px;
   box-shadow: 2px 2px 5px 10px rgba(0,0,0,.4);
@@ -32,13 +32,14 @@ h3 {
 }
 
 #txt_answer {
-  font-size: 25px;
+  font-size: 35px;
   text-align: right;
-  line-height: 35px;
+  line-height: 45px;
   padding: 0 5px;
   width: 90%;
   margin: 0 auto;
-  background: #CCC;
+  background: #000;
+  color: #66FF33;
   box-shadow: 0 0 2px 2px rgba(0,0,0,.25) inset;
 }
 

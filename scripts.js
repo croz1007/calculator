@@ -4,7 +4,7 @@ $(function(){
 
     answer = $("#txt_answer");
     $(".num_btn").on("click", function(e){
-      if(answer.val().length < 18) {
+      if(answer.val().length < 12) {
         update_screen($(this).val());
       }
     });
