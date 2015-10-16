@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+  </head>
+  <body>
+    <div id="calc">
+      <div id="logo">
+        <h3>CROSBY 4000</h3>
+      <div>
+      <div id="answer">
+        <input type="text" readonly id="txt_answer" />
+      </div>
+      <hr>
+      <div id="buttons">
+        <button class="btn clear_btn" value="C" onclick="clear_answer">C</button>
+        <button class="btn divide_btn" value="/" onclick="total_values('divide');">&divide;</button>
+        <br>
+
+        <button class="btn num_btn" value="7">7</button>
+        <button class="btn num_btn" value="8">8</button>
+        <button class="btn num_btn" value="9">9</button>
+        <button class="btn multiply_btn" value="*" onclick="total_values('multi');">X</button>
+        <br>
+
+        <button class="btn num_btn" value="4">4</button>
+        <button class="btn num_btn" value="5">5</button>
+        <button class="btn num_btn" value="6">6</button>
+        <button class="btn subtract_btn" value="-" onclick="total_values('sub');">-</button>
+        <br>
+
+        <button class="btn num_btn" value="1">1</button>
+        <button class="btn num_btn" value="2">2</button>
+        <button class="btn num_btn" value="3">3</button>
+        <button class="btn add_btn" value="+" onclick="total_values('add');">+</button>
+        <br>
+
+        <button class="btn num_btn zero" value="0">0</button>
+        <button class="btn num_btn" value=".">.</button>
+        <button class="btn equal_btn" value="=" onclick="equal();">=</button>
+      </div>
+    </div>
+  </body>
+</html>
